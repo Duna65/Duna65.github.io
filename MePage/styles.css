@@ -51,7 +51,17 @@ section{
       background-position: 0 50%;
     }
   }
-
+.meat{
+  width: fit-content;
+  font-size: 40px;
+  text-align: center; 
+}
+table, th, td{
+  width: 50%;
+  height: 40px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
 #link-box{
   width: 500;
   border: 10px solid cyan;
@@ -59,7 +69,7 @@ section{
   margin: 20px;
 }
 .home-page{
-  background-color:rgba(157, 255, 0, 0.5);
+  background-color:rgba(94, 255, 0, 0.5);
   text-align: center;
   overflow: scroll;
 }
