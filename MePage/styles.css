@@ -12,12 +12,10 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 30px;
   }  
 h2 {
     font-family: 'Bebas Neue', Arial;
-}
-.color-blue{
-  background-color:rgba(110, 110, 255, 0.5);
 }
 
 section{
@@ -75,6 +73,21 @@ table, th, td{
   background-color:rgba(94, 255, 0, 0.5);
   text-align: center;
   overflow: scroll;
+}
+.HalfGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: scroll;
+  background-color:rgba(110, 110, 255, 0.5);
+  height: fit-content;
+}
+.item-half-1{
+  grid-column: 1;
+  grid-row: 1;
+}
+.item-half-2{
+  grid-column: 2;
+  grid-row: 1;
 }
 .item-middle-2{
   grid-column-start: 2;
